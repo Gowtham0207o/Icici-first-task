@@ -2,7 +2,7 @@ namespace MyBackend.Models
 {
     public class FormModel
     {
-        // initialize strings to avoid CS8618 warnings
+        
          public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
         public string LastName  { get; set; } = string.Empty;
@@ -13,7 +13,6 @@ namespace MyBackend.Models
         public string State     { get; set; } = string.Empty;
         public string Zip       { get; set; } = string.Empty;
 
-        // make DOB nullable (avoid binding/initialization warnings)
         public DateTime? Dob { get; set; }
 
         public string Gender  { get; set; } = string.Empty;
