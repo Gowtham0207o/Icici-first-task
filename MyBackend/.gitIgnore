@@ -1,0 +1,77 @@
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# Visual Studio cache/options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains IDE
+.idea/
+*.iml
+
+# Logs
+Logs/
+*.log
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Backup & crash reports
+*.bak
+*.swp
+*.tmp
+*.tmp_proj
+*.svclog
+*.pidb
+*.pid
+*.scc
+
+# Publish
+publish/
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# User secrets
+secrets.json
+*.secret.json
+
+# Environment files
+.env
+.env.*
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.db-wal
+*.db-shm
+
+# Config transforms (generated)
+appsettings.*.local.json
+appsettings.Development.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
